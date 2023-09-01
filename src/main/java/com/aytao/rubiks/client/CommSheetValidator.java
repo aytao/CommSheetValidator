@@ -307,6 +307,7 @@ public class CommSheetValidator {
 
     options.addRequiredOption("t", "piece-type", true,
         "Specifies what piece type the sheet is for. Must be either 'e' for edges or 'c' for corners");
+    String cmdLineSyntax = "check_comms.(bat|sh) [COMM_SHEET] [OPTION]...";
 
     CommandLineParser parser = new DefaultParser();
     try {
@@ -319,7 +320,7 @@ public class CommSheetValidator {
 
       if (cmd.hasOption("help")) {
         HelpFormatter formatter = new HelpFormatter();
-        formatter.printHelp("check_comms.(bat|sh)", options);
+        formatter.printHelp(cmdLineSyntax, options);
         return;
       }
 
@@ -350,7 +351,7 @@ public class CommSheetValidator {
     } catch (ParseException e) {
       System.err.println("Error parsing command-line arguments: " + e.getMessage());
       HelpFormatter formatter = new HelpFormatter();
-      formatter.printHelp("check_comms.(bat|sh)", options);
+      formatter.printHelp(cmdLineSyntax, options);
     } catch (Exception e) {
       System.err.println(e.getMessage());
       System.exit(1);
