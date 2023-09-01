@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Represents a commutator component. A commutator component has
  *                the form [A, B], where A and B can be other nested components.

@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Represents the base abstract class for all comm components.
  *                Note that, while most blind algs are all colloquially referred

@@ -1,3 +1,11 @@
+/* *****************************************************************************
+ *  Author:       Andrew Tao
+ *
+ *  Description:  Represents a 3-style comm. A comm consists of one or more
+ *                nested components.
+ *
+ **************************************************************************** */
+
 package com.aytao.rubiks.comm;
 
 import java.util.ArrayList;

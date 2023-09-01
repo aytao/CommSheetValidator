@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Implements a Cube data type that represents a 3x3 Rubik’s
  *                Cube and allows for execution of all 18 WCA-legal face moves,
@@ -93,13 +93,6 @@ public class Cube {
     Cube copy = new Cube(this);
     copy.execute(solution);
     return copy.isSolved();
-  }
-
-  /*
-   * Returns true if and only if the moves of the provided solution solve the cube
-   */
-  public boolean validSolution(Solution solution) {
-    return validSolution(solution.toSequence());
   }
 
   /*

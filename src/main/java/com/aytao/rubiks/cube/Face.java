@@ -1,6 +1,13 @@
+/* *****************************************************************************
+ *  Author:       Andrew Tao
+ *
+ *  Description:  An enum representing all six faces in the Cube class.
+ *
+ **************************************************************************** */
+
 package com.aytao.rubiks.cube;
 
-public enum Face {
+enum Face {
   U(Cube.U),
   L(Cube.L),
   F(Cube.F),
@@ -10,7 +17,7 @@ public enum Face {
 
   final int faceNum;
 
-  /* Creates a new CubeColor with the specified letter associated */
+  /* Creates a new Face with the specified number associated with it */
   Face(int num) {
     this.faceNum = num;
   }

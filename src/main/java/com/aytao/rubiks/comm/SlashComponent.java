@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Represents a slash component. A slash is of the form A / B,
  *                executed as A B A2 B' A.

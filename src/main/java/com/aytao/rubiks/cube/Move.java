@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  An enum representing all supported moves by the Cube class.
  *                Also provides methods for working with String representations

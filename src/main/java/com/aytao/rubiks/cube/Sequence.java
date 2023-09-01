@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Provides methods for handling sequences of moves, which are
  *                also commonly (and misrepresentatively) referred to as

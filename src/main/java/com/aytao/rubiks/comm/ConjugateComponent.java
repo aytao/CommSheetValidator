@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Represents a conjugate. A conjugate is of the form [A : B],
  *                where A is a setup sequence and B can be another nested

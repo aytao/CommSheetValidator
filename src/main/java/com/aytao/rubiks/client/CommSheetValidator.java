@@ -1,3 +1,10 @@
+/* *****************************************************************************
+ *  Author:       Andrew Tao
+ *
+ *  Description:  A cli for validating comm sheets.
+ *
+ **************************************************************************** */
+
 package com.aytao.rubiks.client;
 
 import java.io.FileReader;
@@ -9,7 +16,6 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import com.aytao.rubiks.comm.Comm;
-import com.aytao.rubiks.comm.CommValidity;
 import com.aytao.rubiks.comm.Comm.UnbalancedBracketsException;
 import com.aytao.rubiks.cube.Cube;
 import com.aytao.rubiks.cube.SpeffzUtils;

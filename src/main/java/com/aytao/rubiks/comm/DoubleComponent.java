@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
  *  Description:  Represents a double component. A double is of the form (A)2,
  *                where A can be another nested component (but in practice is

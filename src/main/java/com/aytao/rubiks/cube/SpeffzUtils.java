@@ -1,9 +1,10 @@
 /* *****************************************************************************
- *  Author:    Andrew Tao
+ *  Author:       Andrew Tao
  *
- *  Description:  Has methods that take a Cube object as input and returns a
- *                character array representing the state and position of
- *                each sticker on the Cube.
+ *  Description:  Methods for working with the Speffz lettering scheme for
+ *                stickers. Has methods that take a Cube object as input and
+ *                return a character array representing the state and position
+ *                of each sticker on the Cube.
  *
  **************************************************************************** */
 
